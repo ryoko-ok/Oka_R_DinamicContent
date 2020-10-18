@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Working with SASS and Modules</title>
 
+    <!-- this has to be a css file -->
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
     <main id="app">
-        <h1 class="hidden">Welcome to my homepage</h1>
+        <h1 class="hidden">Welcome to my awesome app</h1>
+
+        <!-- this is an HTML componet -->
         <nav class="main-nav">
-            <li><a href="#" class="nav-item">item1</a></li>
-            <li><a href="#" class="nav-item">item2</a></li>
-            <li><a href="#" class="nav-item">item3</a></li>
-            <li><a href="#" class="nav-item">item4</a></li>
-            <li><a href="#" class="nav-item">item5</a></li>
+
+            <li class="nav-item"><a href="#">item1</a></li>
+            <li class="nav-item"><a href="#">item2</a></li>
+            <li class="nav-item"><a href="#">item3</a></li>
+            <li class="nav-item"><a href="#">item4</a></li>
+            <li class="nav-item"><a href="#">item5</a></li>
         </nav>
+
+
+        <section class="user-section">
+            <h1 class="hidden">Our Users</h1>
+            <h2 class="user-name"></h2>
+            <p class="user-nickname"></p>
+            <p class="user-role"></p>
+        </section>
     </main>
     
     <footer>this is footer</footer>

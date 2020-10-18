@@ -7,6 +7,14 @@ body {
   font: "arial", "helvetica", san-serif;
   font-size: 16px;
   background-color: salmon;
+  margin: 0;
+  border: 0;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 nav {
@@ -15,6 +23,8 @@ nav {
 nav .nav-item {
   display: inline-block;
   margin: 0 10px;
+  background-color: blue;
+  border-radius: 8px;
 }
 nav .nav-item a {
   cursor: pointer;
